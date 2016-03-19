@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Jean-Baptiste Perez
+	email = jbaptperez@gmail.com
+[alias]
+	graph = log --all --graph --decorate --abbrev-commit --pretty=oneline
+[core]
+	editor = vim
+[push]
+	default = simple
